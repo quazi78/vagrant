@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-export RSYNC_PROXY=proxy-http.genworth.net:8080
-export http_proxy=http://proxy-http.genworth.net:8080
-export https_proxy=http://proxy-http.genworth.net:8080
-
 set -e
 
 yum install -y wget > /dev/null
